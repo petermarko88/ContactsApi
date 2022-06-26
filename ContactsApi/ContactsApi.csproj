@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="MiniValidation" Version="0.6.0-pre.20220527.55" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
   </ItemGroup>
 
 </Project>
