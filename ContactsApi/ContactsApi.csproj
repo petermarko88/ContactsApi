@@ -8,7 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="MiniValidation" Version="0.6.0-pre.20220527.55" />
+    <PackageReference Include="NLog.Targets.Seq" Version="2.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LoggerService\LoggerService.csproj" />
   </ItemGroup>
 
 </Project>
